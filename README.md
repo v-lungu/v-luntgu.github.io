@@ -1,2 +1,2 @@
-# v-luntgu.github.io
+# v-lungu.github.io
 Personal Portfolio
