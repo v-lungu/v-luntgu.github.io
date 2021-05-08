@@ -303,17 +303,28 @@ nav ul {
   text-align: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .projects h2 {
   margin: 5rem;
 }
 
-.travelly,
-.elena-joy {
+.project-img {
+  height: 50vh;
+  width: 30vw;
+}
+
+.cocktail-manager,
+.elena-joy,
+.morning-text {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+      -ms-flex: 1 1 40vh;
+          flex: 1 1 40vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
 }
 
 .splash {

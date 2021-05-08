@@ -8,11 +8,20 @@
   h2 {
     margin: 5rem;
   }
+  align-items: flex-start;
 }
 
-.travelly,
-.elena-joy {
-  flex: 1 1 40rem;
+.project-img {
+  height: 50vh;
+  width: 30vw;
+}
+
+.cocktail-manager,
+.elena-joy,
+.morning-text {
+  flex: 1 1 40vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
 }
 
 .splash {
